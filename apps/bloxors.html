@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloxorz</title>
+  
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+	
+    <a href="../index.html">
+        <img src="../coologo.png" class="Fatty" alt="go back to homepage">
+    </a>
+
+    <!-- Bloxorz iframe in original box layout -->
+    <div style="width: 100%; max-width: 960px; margin: 0 auto; height: 600px; border: 2px solid #000;">
+        <iframe 
+            src="https://bigbrian.netlify.app/projects/bloxors/" 
+            width="100%" 
+            height="100%" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <p>Game mirrored by BigBrian — Bloxorz</p>
+
+    <button onclick="Dropdown()" class="dropbtn">Tab Cloakers</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="javascript:tabcloakergoogle()">Google Tab Cloak</a>
+        <a href="javascript:tabcloakercanvas()">Canvas Tab Cloak</a>
+        <a href="javascript:tabcloakernew()">New Tab Cloak</a>
+    </div>
+
+    <script src="../main.js"></script> 
+</body>
+</html>
